@@ -1,0 +1,70 @@
+js is a synchronous in nature and it can be changed into asynchronous using async await, promises and callback
+
+js is a single threaded ,
+
+js is as well as interpreted as compiled because of v8 engine .
+
+product .
+
+monolith = all code will be in a one codebase on the time of deploying we put code on VPS (virtual private server)
+latency and throughput that can be improved using HLD(high level design) or LLD (low level design ).
+always give first priority to LLD.
+
+there are some LLD patterns 
+1. singleton pattern
+2. factory method 
+
+
+
+to solve latency we need to optimize the server first 
+1.	horizontal scaling 
+2.	vertically scaling 
+
+
+Vertical scaling = improving hardware of server to boost speed
+
+horizontal scaling = increasing the no of servers.
+
+js can be run on 
+1. brower
+2. but outside browser we need Node.js
+GEC consists of two parts 
+1. memory
+2. execution
+phase 1 :- memory space allocation 
+
+phase 2:- varibale decleration and execution 
+
+in execution art due to a function a execution context creats and after the work comletes the context will delete imidiatly 
+
+
+diff btw VAR and LET 
+
+VAR                                                                     LET
+
+redeclare                                                              value assign
+value assign                                                           strict
+not strict                                                             ecmascrit v6 (ES6)
+
+-three types of errors 
+1.syntax error 
+2.typeerror
+3.refrence error
+
+
+temporal dead zone - the time btw phase 1 and phase 2 .
+
+Function 
+
+arrow function 
+
+function expression ex var xyz()=>{}
+named funcdion 
+anonymous function 
+
+lexical environment and lexical scope 
+
+grandparent - parent - child 
+
+top to bottom not possible bottom to top possible
+
