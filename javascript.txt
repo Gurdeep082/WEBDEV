@@ -68,3 +68,5 @@ grandparent - parent - child
 
 top to bottom not possible bottom to top possible
 
+map  - it iterates an array . and gives a new array 
+
